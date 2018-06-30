@@ -46,7 +46,7 @@ implements FeldDefaultFuerIndexed<T> {
     }
   }
   private void adjustRemoveLast() {
-     if((size==(f.size()/4))&&f.size()>=1)
+     if((size==(f.size()/4))&&f.size()>1)
     {
         adjust(f.size()/2);
      }
